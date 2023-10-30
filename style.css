@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav-bar{
+    background-color: black;
+    color: aliceblue;
+    font-size: 8px;
+
+}
+.nav-item{
+    text-decoration: none;
+    color: antiquewhite;
+    margin: 5px 10px;
+}
+
+.back-img{
+    background-image:linear-gradient(transparent,black),url("/image-folder/Image/banner-image.jpg");
+    height: 90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.logo-image{
+    border: 1px solid red;
+    width: 150px;
+    height: 70px;
+}
