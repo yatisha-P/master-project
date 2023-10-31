@@ -121,9 +121,14 @@
 }
 
 /* Events */
+
+.row-height{
+    height: 50vh;
+
+}
 .event-bg-img{
 background-image: url("/image-folder/Image/event-lg.jpg");
-height: 80vh;
+
 background-position: center;
 background-size:cover;
 background-attachment: scroll;
@@ -137,6 +142,11 @@ margin-left:5px;
 
 .back-color-event{
     background-color: #074a1f;
+    /* border: 3px solid red; */
+    display: d-flex;
+    align-items: center;
+
+
 }
 
 .event-font{
@@ -150,5 +160,18 @@ margin-left:5px;
     margin: 0;
     color: white;
     font-size: 8px;
+
+}
+
+.card-sticker{
+    background-color: #074a1f;
+    color:#d1a411;
+    font-size: 20px;
+    font-weight: bold;
+    outline: 2px solid white;
+    width: 60px;
+    padding: 5px;
+    position: absolute;
+    top: 120px;
 
 }
