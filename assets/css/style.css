@@ -205,3 +205,26 @@ margin-left:5px;
     margin-left: 10px; /* Adjust the spacing as needed */
     margin-right: 10px;
 }
+
+.date-container {
+    background-color: #0E3239;
+    padding: 8px;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    border: 1px solid #fff;
+    margin-top: -50px;
+    margin-bottom: 20px;
+}
+
+.date-container h6 {
+    color: #FFC106
+}
+
+.date-container h5 {
+    color: #fff
+}
+
+.card {
+    border-radius: 0;
+}
