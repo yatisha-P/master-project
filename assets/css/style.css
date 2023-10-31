@@ -71,3 +71,34 @@
     color: #fff;
     background-color: #D3AF36;
 }
+
+.academics-section {
+    background-image: url('/assets/img/banner-image.jpg');
+    background-size: cover; /* Scale the image to cover the entire div */
+    background-repeat: no-repeat; /* Prevent image from repeating */
+    width: 100%; /* Make the div span the full width of its container */
+ 
+}
+
+.overlay-academics{
+    position: absolute;
+    width: 100%;
+    background-color: rgba(7, 74, 31, 0.8);
+}
+
+
+
+.hr-theme-slash-2 {
+    display: flex;
+  }
+  .hr-theme-slash-2 .hr-line {
+    width: 100%;
+    position: relative;
+    margin: 15px;
+    border-bottom: 1px solid #000;
+  }
+  .hr-theme-slash-2 .hr-icon {
+    position: relative;
+    top: 3px;
+    color: #ff0000;
+  }
