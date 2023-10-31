@@ -135,18 +135,12 @@ background-attachment: scroll;
 background-repeat: no-repeat;
 margin-left:5px;
 }
-/* .event-image{
-    width: 55vw;
-} */
-
 
 .back-color-event{
     background-color: #074a1f;
     /* border: 3px solid red; */
     display: d-flex;
     align-items: center;
-
-
 }
 
 .event-font{
@@ -154,8 +148,8 @@ margin-left:5px;
     color: white;
     font-size: 9px;
     font-weight:bold;
-
 }
+
 .event-font-below{
     margin: 0;
     color: white;
@@ -163,15 +157,51 @@ margin-left:5px;
 
 }
 
+/* up coming events */
 .card-sticker{
     background-color: #074a1f;
     color:#d1a411;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
     outline: 2px solid white;
-    width: 60px;
+    width: 50px;
     padding: 5px;
     position: absolute;
-    top: 120px;
+    top: 100px;
 
+}
+
+/* campus life */
+
+.grid-display{
+    display: grid;
+    grid-template-areas: 
+    " school-text-area school-text-area school-text-area side-image-1 side-image-1 side-image-1"
+    " image-below-1 image-below-1 image-below-2 image-below-2 side-image-1 side-image-1"
+    " image-below-1 image-below-1 image-below-2 image-below-2 image-below-3 image-below-3"
+    ;
+    grid-gap: 10px;
+  
+}
+
+#grid-1{
+    grid-area: school-text-area;
+    background-color: red;
+
+}
+#grid-2{
+    grid-area: side-image-1;
+    background-color: green;
+}
+#grid-3{
+    grid-area: image-below-1;
+    background-color: greenyellow; 
+}
+#grid-4{
+    grid-area: image-below-2;
+    background-color: aquamarine;
+}
+#grid-5{
+    grid-area: image-below-3;
+    background-color: blue;
 }
