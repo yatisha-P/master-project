@@ -1,198 +1,446 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Roboto:wght@100;300&display=swap"
+      rel="stylesheet"
+    />
     <title>IITMS</title>
-</head>
-<body>
+  </head>
+  <body>
+    <!-- top header section start  -->
+    <section class="top-bar-header bg-dark">
+      <header
+        class="container-fluid justify-content-between align-items-center d-flex"
+      >
+        <div class="d-flex">
+          <p class="m-2">Call Us: 09876543210 / 09876543210</p>
+          <p class="m-2">Email: principle@iitms.edu</p>
+        </div>
+        <div>
+          <nav class="navbar navbar-expand">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">Careers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">Alumni</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#"
+                  ><i class="fa fa-search" aria-hidden="true"></i>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+    </section>
+    <!-- top header section end  -->
+
+    <!--  header section start  -->
+    <section>
+      <nav
+        class="navbar navbar-expand-lg navbar-light transparent-navbar"
+        style="
+          position: absolute;
+          top: 60px;
+          width: 100%;
+          z-index: 9;
+          text-align: right;
+        "
+      >
+        <div
+          class="container align-items-end container flex-column-reverse justify-content-endali"
+        >
+          <button
+            class="navbar-toggler text-light"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-light"
+                  href="#"
+                  id="servicesDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Services
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+                  <li>
+                    <a class="dropdown-item text-light" href="#">Service 1</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-light" href="#">Service 2</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-itemtext-light" href="#">Service 3</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div
+              class="slider-bg"
+              style="background-image: url('./assets/img/banner-image.jpg')"
+            >
+              <div class="overlay"></div>
+              <div class="slider-details">
+                <div class="container">
+                  <div
+                    class="d-flex flex-column justify-content-between row"
+                    style="height: 600px"
+                  >
+                    <div class="col-12" style="min-height: 250px">
+                      <img src="./assets/img/Banner-logo.png" />
+                    </div>
+                    <div class="col-12">
+                      <img src="./assets/img/Atcovation-logo.png" />
+                      <p class="text-light m-4">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing
+                        elit. Tempore, placeat omnis temporibus qui accusamus
+                        ullam aut? Corporis ipsum minus perferendis. Cupiditate,
+                        pariatur iure dolorem iusto maiores nulla ex doloremque
+                        earum!
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div
+              class="slider-bg"
+              style="background-image: url('./assets/img/banner-image.jpg')"
+            >
+              <div class="slider-details">
+                <div class="container">
+                  <div
+                    class="d-flex flex-column justify-content-between row"
+                    style="height: 600px"
+                  >
+                    <div class="col-12" style="min-height: 250px">
+                      <img src="./assets/img/Banner-logo.png" />
+                    </div>
+                    <div class="col-12">
+                      <img src="./assets/img/Atcovation-logo.png" />
+                      <p class="text-light m-4">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing
+                        elit. Tempore, placeat omnis temporibus qui accusamus
+                        ullam aut? Corporis ipsum minus perferendis. Cupiditate,
+                        pariatur iure dolorem iusto maiores nulla ex doloremque
+                        earum!
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div
+              class="slider-bg"
+              style="background-image: url('./assets/img/banner-image.jpg')"
+            >
+              <div class="slider-details">
+                <div class="container">
+                  <div
+                    class="d-flex flex-column justify-content-between row"
+                    style="height: 600px"
+                  >
+                    <div class="col-12" style="min-height: 250px">
+                      <img src="./assets/img/Banner-logo.png" />
+                    </div>
+                    <div class="col-12">
+                      <img src="./assets/img/Atcovation-logo.png" />
+                      <p class="text-light m-4">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing
+                        elit. Tempore, placeat omnis temporibus qui accusamus
+                        ullam aut? Corporis ipsum minus perferendis. Cupiditate,
+                        pariatur iure dolorem iusto maiores nulla ex doloremque
+                        earum!
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--  header section end  -->
+
+    <!--  about us section start  -->
+    <section style="padding: 40px 0px">
+        <div class="container">
+            <h1 class="text-center">ABOUT US</h1>
+            <div class="text-center">
+                <img src="/assets/img/section-img.png" alt="" />
+              </div>
+              <p class="text-center m-5 about-us-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam
+                voluptas libero ea quidem beatae non impedit laborum eligendi eaque
+                eveniet nostrum, quis, accusantium consequuntur cum incidunt, quos
+                veritatis delectus. Ab vitae amet ea beatae officia ducimus facilis
+                deleniti. Autem perferendis quasi nostrum fugit nisi nemo
+                necessitatibus Quia error ipsa, maiores fugit harum consequuntur
+                delectus a cumque, suscipit, perspiciatis sit recusandae sequi
+                pariatur facilis ratione dolorum saepe officia repellendus temporibus
+                cum porro fugiat fuga. Maiores nisi esse cupiditate quidem!
+              </p>
+              <div class="d-flex justify-content-center">
+                <button class="btn btn-lg  btn-iitm-primary">Read More</button>
+              </div>
+        </div>  
+      </section>
+    <!--  about us section end  -->
+
+
+
+
+      <div class="row bg-success mt-3">
+        <div class="col">
+          <p class="text-center mt-4 fs-6 fw-bold text-light">ACADEMICS</p>
+          <div class="text-center">
+            <img src="/assets/img/section-img.png" alt="" class="" />
+          </div>
+          <div class="d-flex justify-content-between">
+            <div class="about-us-content-text">
+              <p class="text-light mt-3">
+                Apply to more than 130 areas of study across 13 schools and
+                colleges
+              </p>
+            </div>
+
+            <button class="btn btn-sm text-light about-us-btn2 btn-secondary">
+              Apply Now
+            </button>
+          </div>
+
+          <div class="d-flex mb-5 justify-content-around">
+            <div class="card" style="width: 10rem; height: 9rem">
+              <div class="card-body1 card-style1">
+                <span class="card-title1">UG COURSES</span>
+                <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                <p class="card-text1">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Dolores, quisquam eveniet
+                </p>
+                <a href="#" class="card-links">Learn More</a>
+                <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
+              </div>
+            </div>
+
+            <div
+              class="card car"
+              style="width: 10rem; height: 9rem; background-color: #29261b"
+            >
+              <div class="card-body1 card-style1">
+                <span class="card-title1 text-white">UG COURSES</span>
+                <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                <p class="card-text1 text-white">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Dolores, quisquam eveniet
+                </p>
+                <a href="#" class="card-links text-warning">Learn More</a>
+                <i
+                  class="fa fa-arrow-circle-o-right text-warning"
+                  aria-hidden="true"
+                ></i>
+              </div>
+            </div>
+
+            <div class="card car" style="width: 10rem; height: 9rem">
+              <div class="card-body1 card-style1">
+                <span class="card-title1">UG COURSES</span>
+                <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                <p class="card-text1">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Dolores, quisquam eveniet
+                </p>
+                <a href="#" class="card-links">Learn More</a>
+                <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
+              </div>
+            </div>
+
+            <div class="card car" style="width: 10rem; height: 9rem">
+              <div class="card-body1 card-style1">
+                <span class="card-title1">UG COURSES</span>
+                <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                <p class="card-text1">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Dolores, quisquam eveniet
+                </p>
+                <a href="#" class="card-links">Learn More</a>
+                <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row bg-warning">
+        <p class="text-center pt-3 fs-6 fw-bold">
+          EXPLORE ALL PROGRAMS &nbsp;<i
+            class="fa fa-arrow-circle-o-right"
+            aria-hidden="true"
+          ></i>
+        </p>
+      </div>
+
+
 
     <main class="container-fluid">
 
-    <header class="row">
-    <div class="nav-bar d-flex justify-content-between align-items-center">
-        <span class="nav-item">Call us: 022248792/02222478 l Email principal@iitms.edu</span>
-        <div class="nav" > 
-            <a href="#" class="nav-item" >Careers</a>
-            <a href="#" class="nav-item" >Alumani</a>
-            <a href="#" class="nav-item" >Contact</a>
-            <span class="nav-item"><i class="fa fa-search" aria-hidden="true"></i></span>
-        </div>
-    </div>
-
-    <div class="back-img">
-        <div class="d-flex justify-content-between">
-
-        <div class="back-color">
-           <img src="/image-folder/Image/Banner-logo.png" alt="" class="logo-image">
-           <div class="atcovation-div">
-            <img src="/image-folder/Image/Atcovation-logo.png" alt="" class="atcovation-image">
-            <p class="text-light atcovation-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore, placeat omnis temporibus qui accusamus ullam aut? Corporis ipsum minus perferendis. Cupiditate, pariatur iure dolorem iusto maiores nulla ex doloremque earum!</p>
-           </div>
-        </div>
-    
-        <div>
-            <a href="#" class="text-warning nav-selectors">Home</a>
-            <select name="" id="" class="nav-selectors">
-                <option value="">About Us</option>
-            </select>
-            <select name="" id="" class="nav-selectors">
-                <option value="">Colleges</option>
-            </select>
-            <select name="" id="" class="nav-selectors">
-                <option value="">Schools</option>
-            </select>
-            <select name="" id="" class="nav-selectors">
-                <option value="">Academics</option>
-            </select>
-            <select name="" id="" class="nav-selectors">
-                <option value="">Students</option>
-            </select>
-            <select name="" id="" class="nav-selectors">
-                <option value="">Administration</option>
-            </select>
-            <select name="" id="" class="nav-selectors">
-                <option value="">More</option>
-            </select>
-        </div>
-    </div>
-</div>
-</header>
-
-<section class="about-us">
-
-    <p class="text-center mt-4 fs-5 fw-bold">ABOUT US</p>
-
-    <div class="text-center">
-        <img src="/image-folder/image/section-img.png" alt="">
-    </div>
-
-    <p class="text-center mt-4 about-us-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam voluptas libero ea quidem beatae non impedit laborum eligendi eaque eveniet nostrum, quis, accusantium consequuntur cum incidunt, quos veritatis delectus. Ab vitae amet ea beatae officia ducimus facilis deleniti. Autem perferendis quasi nostrum fugit nisi nemo necessitatibus  Quia error ipsa, maiores fugit harum consequuntur delectus a cumque, suscipit, perspiciatis sit recusandae sequi pariatur facilis ratione dolorum saepe officia repellendus temporibus cum porro fugiat fuga. Maiores nisi esse cupiditate quidem!</p>
-
-    <div class="d-flex justify-content-center">
-    <button class="btn btn-sm text-light about-us-btn">Read More</button>
-</div>
 
 
-<div class="row bg-success mt-3">
-    <div class="col">
-        <p class="text-center mt-4 fs-6 fw-bold text-light">ACADEMICS</p>
+
+      <section class="row events">
+        <p class="text-center mt-4 fs-5 fw-bold">EVENTS</p>
         <div class="text-center">
-            <img src="/image-folder/image/section-img.png" alt="" class="">
+          <img src="/assets/img/section-img.png" alt="" />
         </div>
-        <div class="d-flex justify-content-between">
-        <div class="about-us-content-text">
-        <p class="text-light mt-3">Apply to more than 130 areas of study across 13 schools and colleges</p>     
-    </div>
 
-    <button class="btn btn-sm text-light about-us-btn2 btn-secondary">Apply Now</button>
-</div>
+        <div class="row mt-4 d-flex justify-content-center">
+          <div class="col-4 back-color-event">
+            <div>
+              <i class="fa fa-calendar event-font" aria-hidden="true"></i>
+              <span class="event-font">08 APR 2020</span>
+              <p class="event-font">HNSC NEWS Online</p>
+              <p class="event-font">Lorem ipsum dolor sit.</p>
+              <a href="#" class="event-font text-warning">Read More</a>
+              <i
+                class="fa fa-arrow-circle-o-right event-font text-warning"
+                aria-hidden="true"
+              ></i>
+            </div>
 
-    <div class="d-flex mb-5 justify-content-around">
-        <div class="card" style="width: 10rem; height: 9rem;">
-            <div class="card-body1 card-style1">
-              <span class="card-title1">UG COURSES</span>
-              <i class="fa fa-graduation-cap" aria-hidden="true"></i>
-              <p class="card-text1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, quisquam eveniet </p>
-              <a href="#" class="card-links">Learn More</a>
-              <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
+            <div class="mt-3">
+              <i class="fa fa-calendar event-font" aria-hidden="true"></i>
+              <span class="event-font">08 APR 2020</span>
+              <p class="event-font">HNSC NEWS Online</p>
+              <p class="event-font">Lorem ipsum dolor sit.</p>
+              <a href="#" class="event-font text-warning">Read More</a>
+              <i
+                class="fa fa-arrow-circle-o-right event-font text-warning"
+                aria-hidden="true"
+              ></i>
+            </div>
+
+            <div class="mt-3">
+              <i class="fa fa-calendar event-font" aria-hidden="true"></i>
+              <span class="event-font">08 APR 2020</span>
+              <p class="event-font">HNSC NEWS Online</p>
+              <p class="event-font">Lorem ipsum dolor sit.</p>
+              <a href="#" class="event-font text-warning">Read More</a>
+              <i
+                class="fa fa-arrow-circle-o-right event-font text-warning"
+                aria-hidden="true"
+              ></i>
             </div>
           </div>
 
-          <div class="card car" style="width: 10rem; height: 9rem; background-color: #29261b;">
-            <div class="card-body1 card-style1">
-              <span class="card-title1 text-white">UG COURSES</span>
-              <i class="fa fa-graduation-cap" aria-hidden="true"></i>
-              <p class="card-text1 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, quisquam eveniet </p>
-              <a href="#" class="card-links text-warning">Learn More</a>
-              <i class="fa fa-arrow-circle-o-right text-warning" aria-hidden="true"></i>
+          <div
+            class="col-7 event-bg-img d-flex align-items-end justify-content-between"
+          >
+            <img
+              src="/assets/img/Banner-logo.png"
+              alt=""
+              class="event-image"
+              width="100px"
+              height="60px"
+            />
+            <div class="ms-2">
+              <p class="event-font-below">Lorem ipsum dolor sit amet.</p>
+              <p class="event-font-below">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Nesciunt delectus aperiam architecto deleniti beatae officiis
+                inventore corrupti animi distinctio modi?
+              </p>
+              <a href="#" class="event-font-below text-warning">View More</a>
+              <i
+                class="fa fa-arrow-circle-o-right event-font-below text-warning"
+                aria-hidden="true"
+              ></i>
             </div>
           </div>
-
-          <div class="card car" style="width: 10rem; height: 9rem;">
-            <div class="card-body1 card-style1">
-              <span class="card-title1">UG COURSES</span>
-              <i class="fa fa-graduation-cap" aria-hidden="true"></i>
-              <p class="card-text1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, quisquam eveniet </p>
-              <a href="#" class="card-links">Learn More</a>
-              <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
-            </div>
-          </div>
-
-          <div class="card car" style="width: 10rem; height: 9rem;">
-            <div class="card-body1 card-style1">
-              <span class="card-title1">UG COURSES</span>
-              <i class="fa fa-graduation-cap" aria-hidden="true"></i>
-              <p class="card-text1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, quisquam eveniet </p>
-              <a href="#" class="card-links">Learn More</a>
-              <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
-            </div>
-          </div>
-    </div>
-    </div>
-</div>
-<div class="row bg-warning">
-    <p class="text-center pt-3 fs-6 fw-bold">EXPLORE ALL PROGRAMS  &nbsp;<i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i> </p>
-</div>
-</section>
-
-<section class="row events">
-    <p class="text-center mt-4 fs-5 fw-bold">EVENTS</p>
-    <div class="text-center">
-        <img src="/image-folder/image/section-img.png" alt="">
-    </div>
-
-<div class="row mt-4 d-flex justify-content-center">
-    <div class="col-4 back-color-event">
-
-        <div>
-
-        <i class="fa fa-calendar event-font" aria-hidden="true"></i>
-        <span class="event-font">08 APR 2020</span>
-        <p class="event-font">HNSC NEWS Online</p>
-        <p class="event-font">Lorem ipsum dolor sit.</p>
-        <a href="#" class="event-font text-warning">Read More</a>
-        <i class="fa fa-arrow-circle-o-right event-font text-warning" aria-hidden="true"></i>
-    </div>
-
-    <div class="mt-3">
-
-        <i class="fa fa-calendar event-font" aria-hidden="true"></i>
-        <span class="event-font">08 APR 2020</span>
-        <p class="event-font">HNSC NEWS Online</p>
-        <p class="event-font">Lorem ipsum dolor sit.</p>
-        <a href="#" class="event-font text-warning">Read More</a>
-        <i class="fa fa-arrow-circle-o-right event-font text-warning" aria-hidden="true"></i>
-    </div>
-
-<div class="mt-3">
-        <i class="fa fa-calendar event-font " aria-hidden="true"></i>
-        <span class="event-font">08 APR 2020</span>
-        <p class="event-font">HNSC NEWS Online</p>
-        <p class="event-font">Lorem ipsum dolor sit.</p>
-        <a href="#" class="event-font text-warning">Read More</a>
-        <i class="fa fa-arrow-circle-o-right event-font text-warning" aria-hidden="true"></i>
-    </div>
-    </div>
-
-    <div class="col-7 event-bg-img d-flex align-items-end justify-content-between">
-        <img src="/image-folder/Image/Banner-logo.png" alt="" class="event-image" width="100px" height="60px">
-        <div class="ms-2">
-            <p class="event-font-below">Lorem ipsum dolor sit amet.</p>
-            <p class="event-font-below">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt delectus aperiam architecto deleniti beatae officiis inventore corrupti animi distinctio modi?</p>
-            <a href="#" class="event-font-below text-warning">View More</a>
-            <i class="fa fa-arrow-circle-o-right event-font-below text-warning" aria-hidden="true"></i>
         </div>
-    </div>
-</div>
-</section>
-<br> <br> <br>
-</main>
-</body>
+      </section>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

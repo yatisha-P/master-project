@@ -1,154 +1,73 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
-
+.top-bar-header p {
+  color: #fff;
 }
 
-.nav-bar{
-    background-color: black;
-    color: aliceblue;
-    font-size: 8px;
-
-}
-.nav-item{
-    text-decoration: none;
-    color: antiquewhite;
-    margin: 5px 10px;
+.slider-bg {
+  background-size: cover; /* Scale the image to cover the entire div */
+  background-repeat: no-repeat; /* Prevent image from repeating */
+  width: 100%; /* Make the div span the full width of its container */
+  height: 600px; /* Set the desired height */
 }
 
-.back-img{
-    background-image:linear-gradient(transparent,rgb(0, 0, 0)),url("/image-folder/Image/banner-image.jpg");
-    height: 90vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
+.slider-details {
+  background-color: rgba(0, 0, 0, 0.5);
+  max-width: 30%;
+  text-align: center;
+  height: 100%;
 }
 
-.logo-image{
-   
-    width: 150px;
-    height: 70px;
-    margin: 0 10px;
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 30%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
-.nav-selectors{
+.carousel-indicators {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 28%;
+  z-index: 2;
+  justify-content: center;
+  padding: 0;
+  margin-right: 0;
+  margin-bottom: 1rem;
+  margin-left: 0;
+  list-style: none;
+  height: 600px;
+}
+
+.carousel-item {
+    background-color: red;
+}
+.carousel-indicators [data-bs-target] {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.transparent-navbar {
     background-color: transparent;
-    font-size: 8px;
-    color: white;
-    font-weight: 500;
-    border: none;
-    margin: 0 5px;
 }
 
-.back-color{
-    height: 90vh;
-    width: 25vw;  
-}
-.atcovation-div{
-    margin-top: 30vh;
-}
-.atcovation-image{
-    width: 13vw;
-  margin: 0 35px;
-}
-.atcovation-text{
-    font-size: 8px;
-    text-align: left;
-    padding: 15px;
-
+/* Custom CSS for the submenu items */
+.dropdown-menu {
+    background-color: rgba(255, 255, 255, 0.9); /* Adjust the background color and transparency */
 }
 
 
-/* About Us */
-.card-body1{
-    margin-top: 10px;
-    /* border: 2px solid red; */
-}
-.about-us-text{
-    font-size: 8px;
-    margin: 0 30px;
-    font-weight: bold;
-}
-.about-us-btn{
+.btn-iitm-primary {
     background-color: #d1a411;
-    font-size: 10px;
-    margin-top: 10px;
-}
-.about-us-content-text{
-
-    width: 300px;
-    font-weight: bold;
-    font-size: 15px;
-}
-.about-us-btn2{
-   height: 30px;
-    font-size: 10px;
-    margin-top: 10px;
-}
-.card-body1{
-    margin-top: 10px;
-    /* border: 2px solid red; */
-}
-.card-style1{
-    margin-left:  15px;
-    margin-right:  15px;
-}
-.card-title1{
-    /* border: 2px solid red; */
-    font-size: 9px;
-    font-weight: bolder;
-    padding: 0 12px;
-}
-.card-text1{
-    font-size: 9px;
-    margin-top: 10px;
-    font-weight: bolder;
-    margin-left: 10px;
-    /* border: 2px solid red; */
-}
-.card-links{
-    text-decoration: none;
-    color: #074a1f;
-    font-size: 9px;
-    font-weight: bold;
-    padding: 0 12px;
-    margin-top:0 ;
-    /* border: 2px solid red; */
-
+    color: #fff;
+    min-width: 160px;
 }
 
-/* Events */
-.event-bg-img{
-background-image: url("/image-folder/Image/event-lg.jpg");
-height: 80vh;
-background-position: center;
-background-size:cover;
-background-attachment: scroll;
-background-repeat: no-repeat;
-margin-left:5px;
-}
-/* .event-image{
-    width: 55vw;
-} */
-
-
-.back-color-event{
-    background-color: #074a1f;
-}
-
-.event-font{
-    margin: 0;
-    color: white;
-    font-size: 9px;
-    font-weight:bold;
-
-}
-.event-font-below{
-    margin: 0;
-    color: white;
-    font-size: 8px;
-
+.btn-iitm-primary:hover {
+    color: #fff;
+    background-color: #D3AF36;
 }
