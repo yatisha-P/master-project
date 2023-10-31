@@ -173,6 +173,7 @@ margin-left:5px;
 
 /* campus life */
 
+/* 
 .grid-display{
     display: grid;
     grid-template-areas: 
@@ -205,3 +206,7 @@ margin-left:5px;
     grid-area: image-below-3;
     background-color: blue;
 }
+
+.hello{
+    border: 3px solid red;
+} */
