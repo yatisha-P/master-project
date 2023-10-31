@@ -197,3 +197,11 @@ margin-left:5px;
     top: 100px;
 
 }
+
+
+.vertical-line {
+    border-left: 2px solid #FFC106; /* Change the color as needed */
+    height: 40px; /* Adjust the height as needed */
+    margin-left: 10px; /* Adjust the spacing as needed */
+    margin-right: 10px;
+}
