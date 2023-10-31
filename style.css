@@ -2,6 +2,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
 }
 
 .nav-bar{
@@ -17,16 +19,136 @@
 }
 
 .back-img{
-    background-image:linear-gradient(transparent,black),url("/image-folder/Image/banner-image.jpg");
+    background-image:linear-gradient(transparent,rgb(0, 0, 0)),url("/image-folder/Image/banner-image.jpg");
     height: 90vh;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-size: cover;
 }
 
 .logo-image{
-    border: 1px solid red;
+   
     width: 150px;
     height: 70px;
+    margin: 0 10px;
+}
+
+.nav-selectors{
+    background-color: transparent;
+    font-size: 8px;
+    color: white;
+    font-weight: 500;
+    border: none;
+    margin: 0 5px;
+}
+
+.back-color{
+    height: 90vh;
+    width: 25vw;  
+}
+.atcovation-div{
+    margin-top: 30vh;
+}
+.atcovation-image{
+    width: 13vw;
+  margin: 0 35px;
+}
+.atcovation-text{
+    font-size: 8px;
+    text-align: left;
+    padding: 15px;
+
+}
+
+
+/* About Us */
+.card-body1{
+    margin-top: 10px;
+    /* border: 2px solid red; */
+}
+.about-us-text{
+    font-size: 8px;
+    margin: 0 30px;
+    font-weight: bold;
+}
+.about-us-btn{
+    background-color: #d1a411;
+    font-size: 10px;
+    margin-top: 10px;
+}
+.about-us-content-text{
+
+    width: 300px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.about-us-btn2{
+   height: 30px;
+    font-size: 10px;
+    margin-top: 10px;
+}
+.card-body1{
+    margin-top: 10px;
+    /* border: 2px solid red; */
+}
+.card-style1{
+    margin-left:  15px;
+    margin-right:  15px;
+}
+.card-title1{
+    /* border: 2px solid red; */
+    font-size: 9px;
+    font-weight: bolder;
+    padding: 0 12px;
+}
+.card-text1{
+    font-size: 9px;
+    margin-top: 10px;
+    font-weight: bolder;
+    margin-left: 10px;
+    /* border: 2px solid red; */
+}
+.card-links{
+    text-decoration: none;
+    color: #074a1f;
+    font-size: 9px;
+    font-weight: bold;
+    padding: 0 12px;
+    margin-top:0 ;
+    /* border: 2px solid red; */
+
+}
+
+/* Events */
+.event-bg-img{
+background-image: url("/image-folder/Image/event-lg.jpg");
+height: 80vh;
+background-position: center;
+background-size:cover;
+background-attachment: scroll;
+background-repeat: no-repeat;
+margin-left:5px;
+}
+/* .event-image{
+    width: 55vw;
+} */
+
+
+.back-color-event{
+    background-color: #074a1f;
+}
+
+.event-font{
+    margin: 0;
+    color: white;
+    font-size: 9px;
+    font-weight:bold;
+
+}
+.event-font-below{
+    margin: 0;
+    color: white;
+    font-size: 8px;
+
 }
